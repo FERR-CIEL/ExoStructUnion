@@ -52,5 +52,12 @@ void main(){
 	ensembleDesCasiers[0] = c1;
 	ensembleDesCasiers[2] = c2;
 
-	cout << "Programme Transbergeur" << endl;
+	cout << "Taille des differents elements en octets:" << endl;
+	cout << "Taille de Rouleau 1 :" << sizeof(ro1) << endl;
+	cout << "Taille de Palette 1:" << sizeof(pa1) << endl;
+	cout << "Taille de EtatC :" << sizeof(Eetat) << endl;
+	cout << "Taille de Casier 1 :" << sizeof(c1) << endl;
+	cout << "Taille de Casier 2 :" << sizeof(c2) << endl;
+	cout << "Taille de Ensemble des casier :" << sizeof(ensembleDesCasiers) << endl;
+
 }
