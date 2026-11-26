@@ -14,3 +14,9 @@ struct dateFonction {
 	int annee;
 };
 
+struct Semploye {
+	char Nom;
+	char Prenom;
+	dateEmbauche DateE;
+	dateFonction DateA;
+};
